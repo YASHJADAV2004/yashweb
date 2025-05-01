@@ -1,0 +1,58 @@
+
+  .swiper1 {
+    width: 100%;
+    height: 950px;
+    background-color: black;
+    
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+  
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+
+  .bacimg1 video{
+    height: 800px;
+  }
+ 
+
+  /* .bacimg1{
+   background-image: url("./public/slid1.jpeg");
+    height: 800px;
+    width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  } */
+
+  
+
+  @media screen and (max-width:900px) {
+    .swiper1{
+      height: 350px;
+    }
+    .bacimg1{
+      height: 300px;
+      font-size:3px;
+    }
+  }
+
+
+
+  
+
+
+  
+  
